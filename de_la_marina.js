@@ -69,7 +69,7 @@ addIngredient("blue_mussel",{
 
 addIngredient("blue_mussel_meat",{
     type:"mussel_meat",
-    color:"#C98853",
+    color:"#C9854D",
     dishName:"blue_mussel_meat",
     cookName:"cooked_blue_mussel_meat",
     adj:"blue_mussel_meat",
