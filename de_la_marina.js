@@ -17,7 +17,7 @@ addIngredient("mussel_meat",{
   });
 
 editIngredient("clam",{
-    broken:"clam_meat",
+    broken:"clam_meat"
 });
 
 addIngredient("clam_meat",{
@@ -43,7 +43,7 @@ addIngredient("green_lipped_mussel",{
     cookName:"cooked_green_lipped_mussel",
     adj:"green_lipped_mussel",
     hidden:false,
-    broken:"green_lipped_mussel_meat",
+    broken:"green_lipped_mussel_meat"
   });
 
 addIngredient("green_lipped_mussel_meat",{
@@ -64,7 +64,7 @@ addIngredient("blue_mussel",{
     cookName:"cooked_blue_mussel",
     adj:"blue_mussel",
     hidden:false,
-    broken:"blue_mussel_meat",
+    broken:"blue_mussel_meat"
   });
 
 addIngredient("blue_mussel_meat",{
