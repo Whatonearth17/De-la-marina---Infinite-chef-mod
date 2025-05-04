@@ -55,3 +55,23 @@ addIngredient("green_lipped_mussel_meat",{
     adj:"green_lipped_mussel_meat",
     hidden:true
   });
+
+addIngredient("blue_mussel",{
+    type:"mussel",
+    color:"#727890",
+    keywords:"blue,mussel,shellfish",
+    dishName:"blue_mussel",
+    cookName:"cooked_blue_mussel",
+    adj:"blue_mussel",
+    hidden:false,
+    broken:"blue_mussel_meat",
+  });
+
+addIngredient("blue_mussel_meat",{
+    type:"mussel_meat",
+    color:"#C98853",
+    dishName:"blue_mussel_meat",
+    cookName:"cooked_blue_mussel_meat",
+    adj:"blue_mussel_meat",
+    hidden:true
+  });
