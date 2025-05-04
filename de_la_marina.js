@@ -1,0 +1,19 @@
+editIngredient("mussel",{
+    broken:"mussel_meat",
+    shape:"lens_vertical"
+});
+
+addIngredient("mussel_meat",{
+    type:"fish",
+    shape:"rectangle_thinner_tablet",
+    group:"generic",
+    color:"#E4B56A",
+    cookColor:"#AE7142",
+    scale:0.9,
+    keywords:"mussel,flesh,shellfish",
+    dishName:"mussel_meat",
+    cookName:"cooked_mussel_meat",
+    adj:"mussel_meat",
+    broken:"mussel_meat",
+    hidden:false
+  });
