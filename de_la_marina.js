@@ -163,3 +163,16 @@ addIngredient("atlantic_jackknife_meat",{
     adj:"atlantic_jackknife_meat",
     hidden:true,
   });
+
+addIngredient("surf_clam",{
+    type:"clam_meat",
+    scale:"0.8",
+    color:"#AC3939",
+    shape:"triangle_round",
+    keywords:"clam,surf,sushi,seafood,shellfish",
+    dishName:"surf_clam",
+    adj:"surf_clam",
+    cookName:"cooked_surf_clam",
+    hidden:false,
+    broken:"surf_clam"
+  });
