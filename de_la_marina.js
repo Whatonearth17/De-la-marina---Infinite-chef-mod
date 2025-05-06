@@ -6,8 +6,8 @@ editIngredient("mussel",{
 addIngredient("mussel_meat",{
     shape:"rectangle_thinner_tablet",
     group:"generic",
-    color:"#E4B56A",
-    cookColor:"#AE7142",
+    color:"#CBBAAD",
+    cookColor:"#C17F4E",
     scale:1.0,
     keywords:"mussel,flesh,shellfish",
     dishName:"mussel_meat",
@@ -76,3 +76,22 @@ addIngredient("blue_mussel_meat",{
     hidden:true
   });
 
+addIngredient("mediterranean_mussel",{
+    type:"mussel",
+    color:"#2F2A25",
+    keywords:"freshwater,mussel,mediterranean,shellfish",
+    dishName:"mediterranean_mussel",
+    cookName:"cooked_mediterranean_mussel",
+    adj:"mediterranean_mussel",
+    hidden:false,
+    broken:"mediterranean_mussel_meat"
+  });
+
+addIngredient("mediterranean_mussel_meat",{
+    type:"mussel_meat",
+    color:"#DCAD7F",
+    dishName:"mediterranean_mussel_meat",
+    cookName:"cooked_mediterranean_mussel_meat",
+    adj:"mediterranean_mussel_meat",
+    hidden:true
+  });
