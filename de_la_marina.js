@@ -109,11 +109,33 @@ addIngredient("ocean_quahog",{
   });
 
 addIngredient("ocean_quahog_meat",{
-    type:"mussel",
+    type:"clam_meat",
+    scale:"0.8",
     color:"#DFC2B9",
     cookColor:"#B37866",
     dishName:"ocean_quahog_meat",
     cookName:"cooked_ocean_quahog_meat",
     adj:"ocean_quahog_meat",
+    hidden:false,
+  });
+
+addIngredient("manila",{
+    type:"ocean_quahog",
+    scale:"0.7",
+    color:"#C2AC89",
+    keywords:"clam,manila,seafood,shellfish",
+    dishName:"manila",
+    cookName:"cooked_manila",
+    adj:"manila",
+    hidden:false,
+    broken:"manila_meat"
+  });
+
+addIngredient("manila_meat",{
+    type:"mussel_meat",
+    scale:"0.7",
+    dishName:"manila_meat",
+    cookName:"cooked_manila_meat",
+    adj:"manila_meat",
     hidden:false,
   });
