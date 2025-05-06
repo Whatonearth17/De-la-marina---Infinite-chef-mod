@@ -137,5 +137,29 @@ addIngredient("manila_meat",{
     dishName:"manila_meat",
     cookName:"cooked_manila_meat",
     adj:"manila_meat",
+    hidden:true,
+  });
+
+addIngredient("atlantic_jackknife",{
+    type:"ocean_quahog",
+    scale:"1.0",
+    color:"#B5C2C7",
+    shape:"rod",
+    keywords:"clam,atlantic,jackknife,seafood,shellfish",
+    dishName:"atlantic_jackknife",
+    cookName:"cooked_atlantic_jackknife",
+    adj:"atlantic_jackknife",
     hidden:false,
+    broken:"atlantic_jackknife_meat"
+  });
+
+addIngredient("atlantic_jackknife_meat",{
+    type:"clam_meat",
+    shape:"rod",
+    color:"#B89783",
+    scale:"0.9",
+    dishName:"atlantic_jackknife_meat",
+    cookName:"cooked_atlantic_jackknife_meat",
+    adj:"atlantic_jackknife_meat",
+    hidden:true,
   });
