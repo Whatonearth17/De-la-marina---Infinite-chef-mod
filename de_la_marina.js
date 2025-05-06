@@ -8,7 +8,7 @@ addIngredient("mussel_meat",{
     group:"generic",
     color:"#CBBAAD",
     cookColor:"#C17F4E",
-    scale:1.0,
+    scale:1.2,
     keywords:"mussel,flesh,shellfish",
     dishName:"mussel_meat",
     cookName:"cooked_mussel_meat",
