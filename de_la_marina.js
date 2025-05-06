@@ -147,8 +147,8 @@ addIngredient("atlantic_jackknife",{
     shape:"rod",
     keywords:"clam,atlantic,jackknife,seafood,shellfish",
     dishName:"atlantic_jackknife",
-    cookName:"cooked_atlantic_jackknife",
     adj:"atlantic_jackknife",
+    cookName:"cooked_atlantic_jackknife",
     hidden:false,
     broken:"atlantic_jackknife_meat"
   });
