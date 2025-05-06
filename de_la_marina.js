@@ -24,7 +24,7 @@ addIngredient("clam_meat",{
     type:"mussel_meat",
     color:"#D8C497",
     cookColor:"#B19B66",
-    shape:"fruit_nub",
+    shape:"spheroid_prolate",
     stackshape:"rectangle_thinner_tablet",
     scale:0.8,
     keywords:"clam,flesh,shellfish",
@@ -94,4 +94,26 @@ addIngredient("mediterranean_mussel_meat",{
     cookName:"cooked_mediterranean_mussel_meat",
     adj:"mediterranean_mussel_meat",
     hidden:true
+  });
+
+addIngredient("ocean_quahog",{
+    type:"clam",
+    shape:"blob_short",
+    color:"#382418",
+    keywords:"clam,quahog,seafood,shellfish",
+    dishName:"ocean_quahog",
+    cookName:"cooked_ocean_quahog",
+    adj:"ocean_quahog",
+    hidden:false,
+    broken:"ocean_quahog_meat"
+  });
+
+addIngredient("ocean_quahog_meat",{
+    type:"mussel",
+    color:"#DFC2B9",
+    cookColor:"#B37866",
+    dishName:"ocean_quahog_meat",
+    cookName:"cooked_ocean_quahog_meat",
+    adj:"ocean_quahog_meat",
+    hidden:false,
   });
